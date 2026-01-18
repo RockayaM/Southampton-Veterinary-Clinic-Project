@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy | Southampton Veterinary Clinic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light container bg-white rounded shadow-soft my-3 px-3">
+  <div class="container-fluid px-0">
+    <a class="navbar-brand fw-bold" href="index.html">
+      Southampton Vet
+    </a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto flex-wrap">
+        <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+        <li class="nav-item"><a class="nav-link" href="records.html">Records</a></li>
+        <li class="nav-item"><a class="nav-link" href="vaccinations.html">Vaccinations</a></li>
+        <li class="nav-item"><a class="nav-link active" href="pharmacy.html">Pharmacy</a></li>
+        <li class="nav-item"><a class="nav-link" href="emergency.html">Emergency</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container my-5">
+  <div class="page-banner" style="--banner-url: url('https://images.unsplash.com/photo-1631549916768-4119b2e5f926?q=80&w=1479&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+    <div class="page-banner-inner">
+      <h1>Pharmacy</h1>
+      <p>Browse simple pet care items and request refills.</p>
+    </div>
+  </div>
+
+  <div class="d-flex flex-wrap gap-2 mb-4">
+    <button id="phAll" class="btn btn-primary">All</button>
+    <button id="phPrev" class="btn btn-outline-primary">Prevention</button>
+    <button id="phCare" class="btn btn-outline-primary">Care</button>
+    <a href="contact.html" class="btn btn-primary ms-lg-auto">Request a Refill</a>
+  </div>
+
+  <section class="row g-4">
+    <div class="col-12 col-md-6 pharmacy-item" data-cat="prev">
+      <div class="card shadow-soft border-0 h-100">
+        <div class="card-body p-4 d-flex flex-column">
+          <h2 class="h6 fw-semibold">Flea and Tick Prevention</h2>
+          <p class="text-muted small">Monthly protection for dogs and cats.</p>
+          <div class="fw-bold mb-3">From RM 20</div>
+          <a href="contact.html" class="btn btn-outline-primary w-100 mt-auto">Ask about this</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 pharmacy-item" data-cat="prev">
+      <div class="card shadow-soft border-0 h-100">
+        <div class="card-body p-4 d-flex flex-column">
+          <h2 class="h6 fw-semibold">Worming Treatment</h2>
+          <p class="text-muted small">Helps protect against common worms.</p>
+          <div class="fw-bold mb-3">From RM 15</div>
+          <a href="contact.html" class="btn btn-outline-primary w-100 mt-auto">Ask about this</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 pharmacy-item" data-cat="care">
+      <div class="card shadow-soft border-0 h-100">
+        <div class="card-body p-4 d-flex flex-column">
+          <h2 class="h6 fw-semibold">Ear Care</h2>
+          <p class="text-muted small">For mild irritation and cleaning.</p>
+          <div class="fw-bold mb-3">From RM 25</div>
+          <a href="contact.html" class="btn btn-outline-primary w-100 mt-auto">Ask about this</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 pharmacy-item" data-cat="care">
+      <div class="card shadow-soft border-0 h-100">
+        <div class="card-body p-4 d-flex flex-column">
+          <h2 class="h6 fw-semibold">Skin Care</h2>
+          <p class="text-muted small">For dry or itchy skin.</p>
+          <div class="fw-bold mb-3">From RM 30</div>
+          <a href="contact.html" class="btn btn-outline-primary w-100 mt-auto">Ask about this</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <div class="card shadow-soft border-0 h-100">
+        <div class="card-body p-4">
+          <h3 class="h6 fw-semibold mb-3">Safety First</h3>
+          <ul class="mb-0">
+            <li>Always follow vet instructions.</li>
+            <li>Do not use human medicine on pets.</li>
+            <li>Contact us if you see side effects.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <div class="card shadow-soft border-0 h-100">
+        <div class="card-body p-4">
+          <h3 class="h6 fw-semibold mb-3">How Refills Work</h3>
+          <ol class="mb-0">
+            <li>Click "Ask about this" on a product.</li>
+            <li>Tell us your pet's name and item name.</li>
+            <li>We reply within 24 hours.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+    <p>Rockaya Marmoush</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="transitions.js"></script>
+</body>
+</html>

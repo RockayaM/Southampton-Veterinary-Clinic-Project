@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccinations | Southampton Veterinary Clinic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light container bg-white rounded shadow-soft my-3 px-3">
+  <div class="container-fluid px-0">
+    <a class="navbar-brand fw-bold" href="index.html">
+      Southampton Vet
+    </a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto flex-wrap">
+        <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+        <li class="nav-item"><a class="nav-link" href="records.html">Records</a></li>
+        <li class="nav-item"><a class="nav-link active" href="vaccinations.html">Vaccinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="pharmacy.html">Pharmacy</a></li>
+        <li class="nav-item"><a class="nav-link" href="emergency.html">Emergency</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container my-5">
+    <div class="page-banner" style="--banner-url: url('https://images.unsplash.com/photo-1725409796872-8b41e8eca929?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div class="page-banner-inner">
+            <h1>Vaccinations</h1>
+            <p>Simple guides to help keep your pet healthy and safe.</p>
+        </div>
+    </div>
+
+    <div class="d-flex flex-wrap gap-2 mb-4">
+        <button id="btnDogs" class="btn btn-primary">Dogs</button>
+        <button id="btnCats" class="btn btn-outline-primary">Cats</button>
+        <a href="booking.html" class="btn btn-primary ms-lg-auto">Book a Vaccination</a>
+    </div>
+
+    <section class="row g-4 align-items-start">
+        <div class="col-12 col-lg-7">
+            <div id="dogsSchedule">
+                <div class="card shadow-soft border-0">
+                    <div class="card-body p-4">
+                        <h2 class="h5 fw-semibold mb-2">Dog vaccination schedule</h2>
+                        <p class="text-muted mb-3">
+                            A simple guide to puppy and adult vaccines.
+                        </p> 
+
+                        <div class="table-responsive">
+                            <table class="table align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Age</th>
+                                        <th>Vaccine</th>
+                                        <th>Why</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>6-8 weeks</td>
+                                        <td>First puppy vaccine</td>
+                                        <td>Helps protect against common illnesses</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10-12 weeks</td>
+                                        <td>Second puppy vaccine</td>
+                                        <td>Builds stronger protection</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14-16 weeks</td>
+                                        <td>Final puppy vaccine + Rabies</td>
+                                        <td>Completes the puppy course</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 year</td>
+                                        <td>Booster vaccines</td>
+                                        <td>Keeps protection active</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adult</td>
+                                        <td>Yearly boosters</td>
+                                        <td>Recommended once a year</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="catsSchedule" class="d-none">
+                <div class="card shadow-soft border-0">
+                    <div class="card-body p-4">
+                        <h2 class="h5 fw-semibold mb-2">Cat vaccination schedule</h2>
+                        <p class="text-muted mb-3">
+                            A simple guide to kitten and adult vaccines.
+                        </p>
+
+                        <div class="table-responsive">
+                            <table class="table align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Age</th>
+                                        <th>Vaccine</th>
+                                        <th>Why</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>6-8 weeks</td>
+                                        <td>First kitten vaccine</td>
+                                        <td>Helps protect against common illnesses</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10-12 weeks</td>
+                                        <td>Second kitten vaccine</td>
+                                        <td>Builds stronger protection</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14-16 weeks</td>
+                                        <td>Final kitten vaccine + Rabies</td>
+                                        <td>Completes the kitten course</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 year</td>
+                                        <td>Booster vaccines</td>
+                                        <td>Keeps protection active</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adult</td>
+                                        <td>Yearly boosters</td>
+                                        <td>Recommended once a year</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-5">
+            <div class="d-grid gap-4">
+                <div class="card shadow-soft border-0">
+                    <div class="card-body p-4">
+                        <h3 class="h6 fw-semibold mb-3">Safety & Care</h3>
+                        <ul class="mb-0">
+                            <li>Your pet may be tired for a day after vaccination</li>
+                            <li>Contact us if you see swelling or unusual behavior.</li>
+                            <li>Let your pet rest for the rest of the day.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card shadow-soft border-0">
+                    <div class="card-body p-4">
+                        <h3 class="h6 fw-semibold mb-3">Quick FAQs</h3>
+
+                        <div class="mb-3">
+                            <div class="fw-semibold">Do I need to book?</div>
+                            <div class="text-muted small">
+                                Yes, please book so we can prepare for your pet.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="fw-semibold">Can my pet come if they feel sick?</div>
+                            <div class="text-muted small">
+                                Let us know first - we may ask you to come another day.
+                            </div>
+                        </div>
+
+                        <div class="mb-0">
+                            <div class="fw-semibold">What should I bring?</div>
+                            <div class="text-muted small">
+                                Bring any old pet records if you have them.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Rockaya Marmoush</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="transitions.js"></script>
+</body>
+</html>
